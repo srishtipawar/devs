@@ -1,0 +1,13 @@
+.row{
+    display: flex;
+}
+.b{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+}
+.w{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+}

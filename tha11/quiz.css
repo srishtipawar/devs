@@ -1,0 +1,178 @@
+<<<<<<< HEAD
+body{
+    background-image: url("https://www.dentons.com/-/media/images/website/background-images/landing-pages/whats-different-about-dentons/diversity/black-history-month.jpg");
+    background-size: cover;
+}
+
+h2{
+   
+    margin-left: 560px;
+    text-shadow: 2px 0px black, 2px 3px rgb(161, 124, 55);
+    font-size: 35px;
+    color: aliceblue;
+}
+.main{
+    
+    margin-left: 390px;
+    margin-top: 100px;
+    background-color: #0a0121;
+    border: 1px solid rgb(1, 37, 58);
+    border-radius: 7px;
+    width:700px;
+    height: 400px;
+}
+.st{
+    display: block;
+
+}
+.start{
+    background-color: rgb(2, 1, 70);
+    color: white;
+    width: 100px;
+    height: 70px;
+    border-radius: 17px;
+    font-size: 15px;
+    margin-left: 300px;
+    margin-top: 150px;
+    position: fixed;
+}
+.q{
+    display: none;
+    color: white;
+    position: fixed;
+    
+    margin-left: 25px;
+    
+    font-size: 20px;
+}
+.ques{
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.in{
+    height: 35px;
+    width: 550px;
+    border-radius: 10px;
+    padding-top: -40px;
+    position: fixed;
+    background-color: #0a0121;
+    border: 2px solid yellowgreen;
+    color:white;
+}
+button{
+    border: 2px solid yellowgreen;
+}
+.score{
+    display:none;
+    
+    color: white;
+   
+    height: 70px;
+    border-radius: 17px;
+    font-size: 15px;
+    margin-left: 240px;
+    margin-top: 70px;
+    position: fixed;
+}
+.play{
+
+    background-color: rgb(2, 1, 70);
+    color: white;
+    width: 100px;
+    height: 70px;
+    border-radius: 17px;
+    font-size: 15px;
+   margin-left:60px;
+   
+    position: fixed;
+=======
+body{
+    background-image: url("https://www.dentons.com/-/media/images/website/background-images/landing-pages/whats-different-about-dentons/diversity/black-history-month.jpg");
+    background-size: cover;
+}
+
+h2{
+   
+    margin-left: 560px;
+    text-shadow: 2px 0px black, 2px 3px rgb(161, 124, 55);
+    font-size: 35px;
+    color: aliceblue;
+}
+.main{
+    
+    margin-left: 390px;
+    margin-top: 100px;
+    background-color: #0a0121;
+    border: 1px solid rgb(1, 37, 58);
+    border-radius: 7px;
+    width:700px;
+    height: 400px;
+}
+.st{
+    display: block;
+
+}
+.start{
+    background-color: rgb(2, 1, 70);
+    color: white;
+    width: 100px;
+    height: 70px;
+    border-radius: 17px;
+    font-size: 15px;
+    margin-left: 300px;
+    margin-top: 150px;
+    position: fixed;
+}
+.q{
+    display: none;
+    color: white;
+    position: fixed;
+    
+    margin-left: 25px;
+    
+    font-size: 20px;
+}
+.ques{
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.in{
+    height: 35px;
+    width: 550px;
+    border-radius: 10px;
+    padding-top: -40px;
+    position: fixed;
+    background-color: #0a0121;
+    border: 2px solid yellowgreen;
+    color:white;
+}
+button{
+    border: 2px solid yellowgreen;
+}
+.score{
+    display:none;
+    
+    color: white;
+   
+    height: 70px;
+    border-radius: 17px;
+    font-size: 15px;
+    margin-left: 240px;
+    margin-top: 70px;
+    position: fixed;
+}
+.play{
+
+    background-color: rgb(2, 1, 70);
+    color: white;
+    width: 100px;
+    height: 70px;
+    border-radius: 17px;
+    font-size: 15px;
+   margin-left:60px;
+   
+    position: fixed;
+>>>>>>> a35bc386b4c05a42e03803026b93295a96e5655e
+}

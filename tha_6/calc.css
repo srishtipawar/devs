@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/a0/4d/4b/a04d4b5ed7c7d4bc264c292e267bcd8e.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#main{
+    margin-left:70px;
+    width: 300px;
+    height:300px;
+    margin-top: 130px;
+    border-radius: 5px;
+    padding-top: 50px;
+    
+}
+#in{
+    margin-left:-40px;
+    box-shadow:inset 2px 2px black; 
+}
+button{
+     
+    font-size: 23px;
+    background-color: black;
+    color:white;
+    height: 32px;
+    width:50px;
+    border-radius: 5px;
+    margin-right: 9px;
+    margin-top: 10px;
+    
+}
+.but:hover {
+    background-image: radial-gradient(circle,blue, purple);
+    /* box-shadow:inset 2px 2px black;  */
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  /* .but:active:before{
+    opacity:1;
+} */
+ .but:active{
+    transform: scale(0.98);
+    box-shadow:inset 2px 2px black; 
+ }
+.but{
+    box-shadow: 2px 2px black;
+}

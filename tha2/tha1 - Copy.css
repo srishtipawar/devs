@@ -1,0 +1,33 @@
+div{
+    
+	/* background-color:#f1e7f3; */
+	/* border:3px solid black;  */
+	padding-bottom:60px;
+	margin-top:50px; margin-left:170px; margin-right:720px;padding-left:10px;padding-right:10px;
+}
+/* 
+div{
+    background-image: url("https://www.devsnest.in/static/media/logo.f1b45387.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100px 100px;
+    
+} */
+img{
+  opacity: 0.15;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
+  height: 400px;
+  margin-left:291px;
+  margin-top:237px;
+}
+body{
+    background-image: url("https://cdn.nohat.cc/thumb/f/720/30ddce21c2684b37bb33.jpg");
+    background-repeat: no-repeat;
+   
+    background-size:cover;
+}
