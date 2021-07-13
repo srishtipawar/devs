@@ -1,0 +1,39 @@
+#card{
+    border-radius: 7px;
+    background-color: rgb(150, 222, 235);
+    width: 300px;
+    height: 130px;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
+    position: relative;
+    padding-top: 40px;
+}
+#main{
+    width: 450px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-left: 500px;
+    margin-top: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 7px;
+    position: static;
+}
+.btn{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.edit{
+    margin-left: 150px;
+    margin-top: 10px;
+    position: fixed;
+}
+h2{
+    margin-top: -10px;
+}
+#in{
+    margin-left: 520px;
+   
+}
