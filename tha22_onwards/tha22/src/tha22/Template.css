@@ -1,0 +1,23 @@
+.item{
+    width:33.33%;
+    display: inline-block;
+   
+}
+.img{
+    width: 80%;
+    height:400px;
+    margin:10px;
+
+}
+.final{
+    width: 300px;
+    height: 250px;
+    position:relative;
+    margin-left: 0px;
+}
+.in{
+    margin-left: -20px;
+    margin-top: 50px;
+    /* position: relative; */
+
+}
