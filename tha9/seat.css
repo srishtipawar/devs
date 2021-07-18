@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     background-image: url("https://i.ncdn.xyz/publisher-c1a3f893382d2b2f8a9aa22a654d9c97/2019/10/5dd953273f6c35ce7b772c9b0deae695.jpg");
     background-repeat: no-repeat;
@@ -81,87 +81,4 @@ table{
     margin-top: 50px;
     
   }
-=======
-body{
-    background-image: url("https://i.ncdn.xyz/publisher-c1a3f893382d2b2f8a9aa22a654d9c97/2019/10/5dd953273f6c35ce7b772c9b0deae695.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-td{
-    border-radius: 7px;
-    height: 35px;
-    width: 20px;
-    
-    margin-left: 35px;
-    margin-top: 60px;
-    background-color: burlywood;
-    box-shadow: rgb(254, 254, 255) 0px 50px 100px -20px, white 0px 30px 60px -30px, white 0px -2px 6px 0px inset;
-    
-}
-
-#left{
-    float: left;
-    margin-left: 800px;
-    margin-top: 40px;
-    font-size: 30px;
-    color:white;
-    position: absolute;
-    
-}
-#booked{
-    float: left;
-    margin-left: 735px;
-    margin-top: 40px;
-    font-size: 30px;
-    color:white;
-    position: relative;
-}
-
-table{
-    border-spacing: 8px 35px;
-    margin-left: 120px;
-    margin-top: 50px;
-    position: absolute;
-}
-.main{
-    width: 700px;
-    height: 400px;
-    background: rgba(20, 20, 20, 0.7);
-    /* background: transparent; */
-    margin-left: 430px;
-    margin-top: 100px;
-    position: absolute;
-    border-radius: 10px;
-    border: white;
-    backdrop-filter: blur(10px);
-}
-.screen{
-    height: 150px;
-    width: 400px;
-    margin-left: 550px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 50px 5px red;
-    background-color: white;
-    transform:rotateX(-5deg);
-    display: flex;
-    
-}
-.screen_perspective{
-    margin-top: 20px;
-    /* height: 100px; */
-    position: relative;
-    width: 400px;
-    perspective: 230px;
-}
-#box {
-    width: 500px; 
-    height: 100px;  
-    border: solid 5px #000;
-    border-color: rgb(233, 223, 223) transparent transparent transparent;
-    border-radius: 50%/100px 100px 0 0;
-    margin-left: 520px;
-    margin-top: 50px;
-    
-  }
->>>>>>> a35bc386b4c05a42e03803026b93295a96e5655e
