@@ -1,55 +1,66 @@
+import React, { useState } from 'react';
+import './Nav2.css';
+import Caraousel from './Caraousel';
+import Body from './Body';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText, Button
+} from 'reactstrap';
 
-import React, {useState} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Home from './Home2';
 
-import {Link,BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+const Nav2 = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-}));
+  const toggle = () => setIsOpen(!isOpen);
 
-function Nav2() {
-  const classes = useStyles();
-
-  
   return (
-    <div className={classes.root}>
-        <Router>
-      <AppBar position="static">
-        <Toolbar>
-        
-        
-         
-               <Link to="/home2">Home2</Link>
-              
+    <div>
+      <Navbar color="dark" light expand="md">
+        <NavbarBrand href="/" className="text-muted" style={{marginLeft:50}}>reactstrap</NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto" navbar>
+            <NavItem>
+              <NavLink href="/components/" className="text-info">Components</NavLink>
              
-            
-        </Toolbar>
-      </AppBar>    
-    <Switch>
-    
-        <Route exact path='/home2'>
-          <Home />
-        </Route>
-        
-    
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap" className="text-info">GitHub</NavLink>
+            </NavItem>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret className="text-info">
+                Options
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  Option 1
+                </DropdownItem>
+                <DropdownItem>
+                  Option 2
+                </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>
+                  Reset
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+          </Nav>
+          <NavbarText className="text-info" style={{marginLeft:900}}>Simple Text</NavbarText>
+        </Collapse>
+      </Navbar>
 
-      </Switch>       
-   
-          
-          </Router>
-        
+      <Caraousel />
+      <Body/>
     </div>
   );
 }
