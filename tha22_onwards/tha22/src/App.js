@@ -5,6 +5,7 @@ import Display from './tha23/Display';
 import Nav from './tha24/Nav';
 import Nav2 from './tha25/Nav2';
 import {Main2} from './tha24/Main2';
+import Display2 from './tha26/Display';
 
 import {Link,BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
@@ -26,6 +27,9 @@ function App() {
         <li>
         <Link to="/tha25">Tha25</Link>
         </li>
+        <li>
+        <Link to="/tha26">Tha26</Link>
+        </li>
       </ul>
     
     
@@ -43,6 +47,10 @@ function App() {
       </Route>
       <Route exact path='/tha25'>
         <Nav2/>
+       
+      </Route>
+      <Route exact path='/tha26'>
+        <Display2/>
        
       </Route>
     </Switch>
