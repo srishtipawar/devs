@@ -1,7 +1,7 @@
 
 
 
-const Reducer=(state="", action)=>{
+const myname=(state="", action)=>{
     switch(action.type){
         case "first": return state = action.firststate;
             
@@ -16,4 +16,4 @@ const Reducer=(state="", action)=>{
     
 }
 
-export default Reducer;
+export default myname;

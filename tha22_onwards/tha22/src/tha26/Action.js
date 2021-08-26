@@ -1,16 +1,16 @@
-export const submit = ()=>{
+
+export const first = (input)=>{
     return{
-        type:"Submit"
-    }
-}
-export const first = ()=>{
-    return{
-        type:"First"
+        type:"first",
+        firststate: input,
+        
     }
 }
 
-export const last = ()=>{
+export const last = (input)=>{
     return{
-        type:"Last"
+        type:"last",
+        laststate: input,
+        
     }
 }
