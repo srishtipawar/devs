@@ -9,6 +9,7 @@ import Display2 from './tha26/Display';
 import Addtodo from './tha27/Add';
 import List from './tha27/List';
 import Weather from './tha28/Weather';
+import New from './tha33/New';
 
 import {Link,BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
@@ -69,6 +70,10 @@ function App() {
       </Route>
       <Route exact path='/tha28'>
         <Weather/>
+       
+      </Route>
+      <Route exact path='/tha33'>
+        <New/>
        
       </Route>
     </Switch>
