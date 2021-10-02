@@ -1,11 +1,11 @@
-127.0.0.1:6379> set name "Shivam"
+127.0.0.1:6379> set name "Srishti"
 OK
 127.0.0.1:6379> get name
-"Shivam"
-127.0.0.1:6379> set email Shivamsinghl498@gmail.com
+"Srishti"
+127.0.0.1:6379> set email SrishtiPawar043@gmail.com
 OK
 127.0.0.1:6379> get email
-"Shivamsinghl498@gmail.com"
+"SrishtiPawar043@gmail.com"
 127.0.0.1:6379> getrange email 0 4
 "Shiva"
 127.0.0.1:6379> mset lang English technology Redis
@@ -17,10 +17,10 @@ OK
 (integer) 7
 127.0.0.1:6379> strlen technology
 (integer) 5
-127.0.0.1:6379> set name "Sksingh"
+127.0.0.1:6379> set name "Srishti"
 OK
 127.0.0.1:6379> get name
-"Sksingh"
+"Srishti"
 127.0.0.1:6379> strlen name
 (integer) 7
 127.0.0.1:6379> set count q

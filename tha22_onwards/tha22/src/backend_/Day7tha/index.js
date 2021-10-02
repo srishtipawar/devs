@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 //   })
 
  app.get('/g',(req,res)=>{
-     res.json({"shivam": 500})
+     res.json({"Srishti": 640})
  })
 
 app.listen(port)
