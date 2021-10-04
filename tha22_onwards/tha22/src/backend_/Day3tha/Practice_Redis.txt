@@ -7,7 +7,7 @@ OK
 127.0.0.1:6379> get email
 "SrishtiPawar043@gmail.com"
 127.0.0.1:6379> getrange email 0 4
-"Shiva"
+"Srish"
 127.0.0.1:6379> mset lang English technology Redis
 OK
 127.0.0.1:6379> mget lang technology
@@ -87,16 +87,16 @@ OK
 127.0.0.1:6379> lrange country 0 -1
 1) "USA"
 2) "India"
-127.0.0.1:6379> lpush country UK
+127.0.0.1:6379> lpush country Russia
 (integer) 3
 127.0.0.1:6379> lrange country 0 -1
-1) "UK"
+1) "Russia"
 2) "USA"
 3) "India"
 127.0.0.1:6379> rpush country Australia
 (integer) 4
 127.0.0.1:6379> lrange country 0 -1
-1) "UK"
+1) "Russia"
 2) "USA"
 3) "India"
 4) "Australia"
@@ -107,26 +107,26 @@ OK
 127.0.0.1:6379> rpop country
 "Australia"
 127.0.0.1:6379> lpop country
-"UK"
+"Russia"
 
-127.0.0.1:6379> lset country 0 Germany
+127.0.0.1:6379> lset country 0 Egypt
 OK
 127.0.0.1:6379> lrange country 0 -1
-1) "Germany"
+1) "Egypt"
 2) "USA"
 3) "India"
-127.0.0.1:6379> linsert country before Germany "New zealand"
+127.0.0.1:6379> linsert country before Egypt "China"
 (integer) 4
 127.0.0.1:6379> lrange country 0 -1
-1) "New zealand"
-2) "Germany"
+1) "China"
+2) "Egypt"
 3) "USA"
 4) "India"
 127.0.0.1:6379> linsert country after USA UAE
 (integer) 5
 127.0.0.1:6379> lrange country 0 -1
-1) "New zealand"
-2) "Germany"
+1) "China"
+2) "Egypt"
 3) "USA"
 4) "UAE"
 5) "India"

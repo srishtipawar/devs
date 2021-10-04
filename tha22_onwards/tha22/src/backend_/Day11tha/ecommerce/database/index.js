@@ -1,8 +1,8 @@
 const {Sequelize}=require("sequelize");
 const sequelize = new Sequelize(
     "postgres",
-    "postgres",
-    "123456789",
+    "srishti",
+    "1234567",
     {
         host: "localhost",
         dialect: "postgres"

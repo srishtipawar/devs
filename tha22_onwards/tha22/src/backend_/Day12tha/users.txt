@@ -5,8 +5,8 @@ const Pool = require('pg').Pool;
 const pool = new Pool({
   user:'postgres',
   host:'localhost',
-  database:'potgres',
-  password: '123456789',
+  database:'postgres',
+  password: '1234@567',
   port:5432
 })
 /* GET users listing. */
@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
     if(err) {
       throw err;
     }
-    res.status(200),json(result);
+    res.status(300),json(result);
   })
 });
 
